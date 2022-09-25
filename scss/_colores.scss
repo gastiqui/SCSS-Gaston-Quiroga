@@ -1,0 +1,33 @@
+@import "fuentes";
+
+/* variables */
+$verde:green;
+$negro:rgb(0,0,0);
+$violeta:purple;
+
+
+.col-lg-6{
+	h1{
+	 color:$verde;
+	}
+	p{
+	color:$violeta;
+	font-size:$pDesktop;
+	}
+} 
+
+.texto{
+	background:linear-gradient(to bottom, black, yellow);
+	&__encabezado{
+		color:$verde;
+	}
+	&__parrafo{
+		font-size:20px;
+		&--color{
+		color:$verde;
+		 @media only screen and (max-width:768px){
+		color:$violeta;
+		}
+		}
+	}
+}
