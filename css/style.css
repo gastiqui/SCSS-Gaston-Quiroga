@@ -14,9 +14,6 @@
   font-size: 20px;
 }
 
-.texto {
-  background: linear-gradient(to bottom, black, yellow);
-}
 
 .texto__encabezado {
   color: green;
@@ -59,7 +56,7 @@
 }
 
 .texto {
-  background: linear-gradient(to bottom, black, yellow);
+  background: linear-gradient(to bottom, black, white);
   text-align: center;
 }
 
