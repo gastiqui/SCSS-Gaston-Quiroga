@@ -1,13 +1,13 @@
-$pDesktop:20px;
+$pDesktop: 20px;
 $fontFamily: 'tahoma';
 
 
-.col-lg-6{
-	p{
-	font:{
-		size:$pDesktop;
-		family:$fontFamily;
-		weight:bold;
+.col-lg-6 {
+	p {
+	font: {
+		size: $pDesktop;
+		family: $fontFamily;
+		weight: bold;
 		}
 	}
 } 
