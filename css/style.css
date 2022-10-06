@@ -8,25 +8,23 @@
 .col-lg-6 h1 {
   color: green;
 }
-
 .col-lg-6 p {
   color: purple;
   font-size: 20px;
 }
 
-
+.texto {
+  background: linear-gradient(to bottom, white, black);
+}
 .texto__encabezado {
   color: green;
 }
-
 .texto__parrafo {
   font-size: 20px;
 }
-
 .texto__parrafo--color {
   color: green;
 }
-
 @media only screen and (max-width: 768px) {
   .texto__parrafo--color {
     color: purple;
@@ -49,29 +47,23 @@
 .col-lg-6 h1 {
   color: green;
 }
-
 .col-lg-6 p {
   color: purple;
   font-size: 20px;
 }
 
 .texto {
-  background: linear-gradient(to bottom, black, white);
-  text-align: center;
+  background: linear-gradient(to bottom, white, black);
 }
-
 .texto__encabezado {
   color: green;
 }
-
 .texto__parrafo {
   font-size: 20px;
 }
-
 .texto__parrafo--color {
   color: green;
 }
-
 @media only screen and (max-width: 768px) {
   .texto__parrafo--color {
     color: purple;
@@ -82,23 +74,28 @@
   text-align: center;
   padding: 50px 0;
 }
-
 @media only screen and (max-width: 768px) {
   .titulo__principal {
     font-size: 35px;
     font-weight: bold;
   }
 }
-
 @media only screen and (min-width: 1024px) {
   .titulo__principal {
     font-size: 50px;
     font-weight: bold;
   }
 }
-
 .titulo__principal--color {
   color: green;
 }
 
-/*# sourceMappingURL=style.css.map */
+.logo-header {
+  height: 155px;
+  width: 135px;
+}
+
+.imagenBody {
+  width: 100vw;
+  height: 80vh;
+}/*# sourceMappingURL=style.css.map */

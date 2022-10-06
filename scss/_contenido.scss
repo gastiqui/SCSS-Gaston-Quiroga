@@ -3,6 +3,7 @@
 $centrar: center;
 $h1Desk: 50px;
 $h1Mob: 35px;
+
 .titulo {
 	text-align: $centrar;
 	padding: 50px 0;
@@ -11,7 +12,7 @@ $h1Mob: 35px;
 			font: {
 				size: $h1Mob;
 				weight: bold;
-			}	
+			}
 		}
 		@media only screen and (min-width: 1024px) {
 			font: {
@@ -21,6 +22,17 @@ $h1Mob: 35px;
 		}
 		&--color {
 			color: $verde;
-		}		
+		}
 	}
+}
+
+.logo-header {
+	height: 155px;
+	width: 135px;
+}
+
+.imagenBody{
+	width: 100vw;
+	height: 80vh;
+
 }

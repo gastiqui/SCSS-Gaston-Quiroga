@@ -5,7 +5,6 @@ $verde: green;
 $negro: rgb(0,0,0);
 $violeta: purple;
 
-
 .col-lg-6 {
 	h1 {
 	 color: $verde;
@@ -14,10 +13,10 @@ $violeta: purple;
 	color: $violeta;
 	font-size: $pDesktop;
 	}
-} 
+}
 
 .texto {
-	background:linear-gradient(to bottom, black, yellow);
+	background:linear-gradient(to bottom, white, black);
 	&__encabezado {
 		color: $verde;
 	}
